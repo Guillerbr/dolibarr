@@ -37,7 +37,7 @@
 		"luracast/restler": "^3.0"
 	},
 	"require-dev" : {
-		"jakub-onderka/php-parallel-lint" : "^0",
+		"jakub-onderka/php-parallel-lint" : "^1",
 		"jakub-onderka/php-console-highlighter" : "^0",
 		"phpunit/phpunit" : "^4",
 		"squizlabs/php_codesniffer" : "^2",
