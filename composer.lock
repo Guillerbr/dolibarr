@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "949d55d933c4e0725a2086a189595483",
@@ -324,12 +324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Luracast/Restler-Framework.git",
-                "reference": "6bc0968f8c8aa47c9a62d548b9d7e34f1ed4fc09"
+                "reference": "0f6b0f26152f83e43a2a86820206c455095fb2b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Luracast/Restler-Framework/zipball/6bc0968f8c8aa47c9a62d548b9d7e34f1ed4fc09",
-                "reference": "6bc0968f8c8aa47c9a62d548b9d7e34f1ed4fc09",
+                "url": "https://api.github.com/repos/Luracast/Restler-Framework/zipball/0f6b0f26152f83e43a2a86820206c455095fb2b0",
+                "reference": "0f6b0f26152f83e43a2a86820206c455095fb2b0",
                 "shasum": ""
             },
             "require": {
@@ -376,7 +376,7 @@
                 "rest",
                 "server"
             ],
-            "time": "2018-01-06T01:39:27+00:00"
+            "time": "2019-05-12T15:15:11+00:00"
         },
         {
             "name": "setasign/fpdf",
@@ -552,7 +552,7 @@
             ],
             "authors": [
                 {
-                    "name": "Sebastien MALOT",
+                    "name": "Sebastien Malot",
                     "email": "sebastien@malot.fr"
                 }
             ],
@@ -569,16 +569,16 @@
         },
         {
             "name": "tecnickcom/tcpdf",
-            "version": "6.2.26",
+            "version": "6.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "367241059ca166e3a76490f4448c284e0a161f15"
+                "reference": "510070b5e068e10d97b8cb0e25295e54755ec09d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/367241059ca166e3a76490f4448c284e0a161f15",
-                "reference": "367241059ca166e3a76490f4448c284e0a161f15",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/510070b5e068e10d97b8cb0e25295e54755ec09d",
+                "reference": "510070b5e068e10d97b8cb0e25295e54755ec09d",
                 "shasum": ""
             },
             "require": {
@@ -607,7 +607,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0"
+                "LGPL-3.0-only"
             ],
             "authors": [
                 {
@@ -627,7 +627,7 @@
                 "pdf417",
                 "qrcode"
             ],
-            "time": "2018-10-16T17:24:05+00:00"
+            "time": "2020-02-12T13:26:24+00:00"
         }
     ],
     "packages-dev": [
@@ -1396,6 +1396,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-10-02T06:51:40+00:00"
         },
         {
