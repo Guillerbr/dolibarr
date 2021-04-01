@@ -1412,16 +1412,16 @@
         },
         {
             "name": "phpunit/phpunit-selenium",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giorgiosironi/phpunit-selenium.git",
-                "reference": "2bad798ec0daf20d2854400e3bc5329ee0a7b2d1"
+                "reference": "013037eeea481657d236431634042648797e1da8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giorgiosironi/phpunit-selenium/zipball/2bad798ec0daf20d2854400e3bc5329ee0a7b2d1",
-                "reference": "2bad798ec0daf20d2854400e3bc5329ee0a7b2d1",
+                "url": "https://api.github.com/repos/giorgiosironi/phpunit-selenium/zipball/013037eeea481657d236431634042648797e1da8",
+                "reference": "013037eeea481657d236431634042648797e1da8",
                 "shasum": ""
             },
             "require": {
@@ -1472,7 +1472,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-03-01T10:33:56+00:00"
+            "time": "2017-01-23T22:15:32+00:00"
         },
         {
             "name": "sebastian/comparator",
