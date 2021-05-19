@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5cdcc6b86be6ef6d279c177484340464",
+    "content-hash": "1da48af5900cb0821624af9e615eb2d7",
     "packages": [
         {
             "name": "atgp/factur-x",
@@ -324,17 +324,17 @@
         },
         {
             "name": "restler/framework",
-            "version": "3.0.0-RC6",
+            "version": "4.0.0",
             "target-dir": "Luracast/Restler",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Luracast/Restler-Framework.git",
-                "reference": "0f6b0f26152f83e43a2a86820206c455095fb2b0"
+                "reference": "a83c9838874b66b9d9ec6e3b88b5851386129f80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Luracast/Restler-Framework/zipball/0f6b0f26152f83e43a2a86820206c455095fb2b0",
-                "reference": "0f6b0f26152f83e43a2a86820206c455095fb2b0",
+                "url": "https://api.github.com/repos/Luracast/Restler-Framework/zipball/a83c9838874b66b9d9ec6e3b88b5851386129f80",
+                "reference": "a83c9838874b66b9d9ec6e3b88b5851386129f80",
                 "shasum": ""
             },
             "require": {
@@ -343,14 +343,23 @@
             "replace": {
                 "luracast/restler": "3.*"
             },
+            "require-dev": {
+                "bshaffer/oauth2-server-php": "v1.0",
+                "luracast/explorer": "*",
+                "mustache/mustache": "dev-master",
+                "rodneyrehm/plist": "dev-master",
+                "symfony/yaml": "*",
+                "twig/twig": "v1.13.0",
+                "zendframework/zendamf": "dev-master"
+            },
             "suggest": {
-                "bshaffer/oauth2-server-php": "If you want to use OAuth2 for authentication",
-                "illuminate/view": "If you want to use laravel blade templates with Html format",
-                "mustache/mustache": "If you want to use mustache/handlebar templates with Html format",
-                "rodneyrehm/plist": "If you need Apple plist binary/xml format",
-                "symfony/yaml": "If you need YAML format",
-                "twig/twig": "If you want to use twig templates with Html format",
-                "zendframework/zendamf": "If you need AMF format"
+                "bshaffer/oauth2-server-php": "Restler can provide OAuth2 authentication using this library (see require-dev for details)",
+                "luracast/explorer": "Restler's very own api explorer (see require-dev for details)",
+                "mustache/mustache": "Restler can render HtmlView using mustache/handlebar templates (see require-dev for details)",
+                "rodneyrehm/plist": "Restler supports tho Apple plist xml format (see require-dev for details)",
+                "symfony/yaml": "Restler can produce content in yaml format as well (see require-dev for details)",
+                "twig/twig": "Restler can render HtmlView using twig templates (see require-dev for details)",
+                "zendframework/zendamf": "Support for the amf document format  (see require-dev for details)"
             },
             "type": "library",
             "extra": {
@@ -371,6 +380,10 @@
                 {
                     "name": "Luracast",
                     "email": "arul@luracast.com"
+                },
+                {
+                    "name": "Nick nickl- Lombard",
+                    "email": "github@jigsoft.co.za"
                 }
             ],
             "description": "Just the Restler Framework without the tests and examples",
@@ -381,7 +394,10 @@
                 "rest",
                 "server"
             ],
-            "time": "2019-05-12T15:15:11+00:00"
+            "support": {
+                "source": "https://github.com/Luracast/Restler-Framework/tree/3.0.0"
+            },
+            "time": "2020-02-13T16:06:00+00:00"
         },
         {
             "name": "setasign/fpdf",
@@ -2092,14 +2108,13 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "restler/framework": 5
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.0",
         "ext-curl": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
