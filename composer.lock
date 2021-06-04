@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5cdcc6b86be6ef6d279c177484340464",
+    "content-hash": "2d3072122b6f453fa01aff90e4a86311",
     "packages": [
         {
             "name": "atgp/factur-x",
@@ -324,21 +324,21 @@
         },
         {
             "name": "restler/framework",
-            "version": "3.0.0-RC6",
-            "target-dir": "Luracast/Restler",
+            "version": "5.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Luracast/Restler-Framework.git",
-                "reference": "0f6b0f26152f83e43a2a86820206c455095fb2b0"
+                "reference": "1339dfa307275878ba31b052ec27e563092a69ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Luracast/Restler-Framework/zipball/0f6b0f26152f83e43a2a86820206c455095fb2b0",
-                "reference": "0f6b0f26152f83e43a2a86820206c455095fb2b0",
+                "url": "https://api.github.com/repos/Luracast/Restler-Framework/zipball/1339dfa307275878ba31b052ec27e563092a69ac",
+                "reference": "1339dfa307275878ba31b052ec27e563092a69ac",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "ext-json": "*",
+                "php": ">=5.4.0"
             },
             "replace": {
                 "luracast/restler": "3.*"
@@ -353,19 +353,14 @@
                 "zendframework/zendamf": "If you need AMF format"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "master": "v3.0.x-dev"
-                }
-            },
             "autoload": {
-                "psr-0": {
-                    "Luracast\\Restler": ""
+                "psr-4": {
+                    "Luracast\\Restler\\": "/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-2.1"
+                "LGPL-2.1-or-later"
             ],
             "authors": [
                 {
@@ -374,14 +369,17 @@
                 }
             ],
             "description": "Just the Restler Framework without the tests and examples",
-            "homepage": "http://luracast.com/products/restler/",
+            "homepage": "https://luracast.com/products/restler/",
             "keywords": [
                 "api",
                 "framework",
                 "rest",
                 "server"
             ],
-            "time": "2019-05-12T15:15:11+00:00"
+            "support": {
+                "source": "https://github.com/Luracast/Restler-Framework/tree/5.0.3"
+            },
+            "time": "2021-06-03T15:01:34+00:00"
         },
         {
             "name": "setasign/fpdf",
@@ -2092,14 +2090,13 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "restler/framework": 5
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.0",
         "ext-curl": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
